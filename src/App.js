@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "./components/Navbar"
 import Home from "./components/pages/Home"
 import Footer from "./components/Footer"
-import About from "./components/pages/About"
+// import About from "./components/pages/About"
 import Contact from "./components/pages/Contact"
 import Resume from "./components/pages/Resume"
 import Portfolio from "./components/pages/Portfolio"
@@ -17,8 +17,6 @@ import {
 
 // App.js will use the chapter 21 approach of creating a router system to transfer to different pages
 
-// const App = () => <PortfolioContainer />;
-
 export default function App() {
     return ( // Need to return the output that is wanted
         <Router>
@@ -26,7 +24,7 @@ export default function App() {
         <Navbar />
         <Routes>
             <Route path='/' element={<Home />} />
-            <Route path='/aboutme' element={<About />} />
+            {/* <Route path='/aboutme' element={<About />} /> */}
             <Route path='/contact' element={<Contact />} />
             <Route path='/resume' element={<Resume />} />
             <Route path='/portfolio' element={<Portfolio />} />
