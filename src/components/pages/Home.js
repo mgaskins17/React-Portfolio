@@ -16,7 +16,7 @@ export default function Home() {
           front-end and back-end structure of the sites we use everyday.
         </p>
       </div>
-      <img src={profImg} className="mt-5" style={{height: 400, width: 500}}/>
+      <img src={profImg} className="mt-5" alt=".." style={{height: 400, width: 500}}/>
     </section>
   );
 }

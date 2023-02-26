@@ -9,7 +9,7 @@ import Portfolio from "./components/pages/Portfolio"
 import "./style.css"
 
 import {
-    HashRouter as Router,
+    HashRouter,
     Route,
     Routes,
     // Navigate
@@ -19,11 +19,11 @@ import {
 
 export default function App() {
     return ( // Need to return the output that is wanted
-        <Router>
+    <HashRouter basename="/">
         <div> 
         <Navbar />
         <Routes>
-            <Route path='/' element={<Home />} />
+            <Route exact path='/' element={<Home />} />
             {/* <Route path='/aboutme' element={<About />} /> */}
             <Route path="/contact" element={<Contact />} />
             <Route path="/resume" element={<Resume />} />
@@ -32,7 +32,7 @@ export default function App() {
         </Routes>
         <Footer />
         </div>
-    </Router>
+    </HashRouter>
     );
 }
 
