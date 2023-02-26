@@ -25,9 +25,9 @@ export default function App() {
         <Routes>
             <Route path='/React-Portfolio/' element={<Home />} />
             {/* <Route path='/aboutme' element={<About />} /> */}
-            <Route path='/React-Portfolio/contact' element={<Contact />} />
-            <Route path='/React-Portfolio/resume' element={<Resume />} />
-            <Route path='/React-Portfolio/portfolio' element={<Portfolio />} />
+            <Route path="/React-Portfolio/contact" element={<Contact />} />
+            <Route path="/React-Portfolio/resume" element={<Resume />} />
+            <Route path="/React-Portfolio/portfolio" element={<Portfolio />} />
             {/* <Route path='*' element={<Navigate to = "/"/>} /> */}
         </Routes>
         <Footer />
