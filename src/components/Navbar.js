@@ -6,7 +6,7 @@ export default function NavBar() {
     <header>
       <nav className="navbar navbar-expand-lg navbar-light bg-secondary">
         <div className="container-fluid">
-          <a className="navbar-brand" href="/">
+          <a className="navbar-brand" href="/React-Portfolio/">
             M. Gaskins
           </a>
           <button
