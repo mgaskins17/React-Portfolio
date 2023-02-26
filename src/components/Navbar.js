@@ -23,7 +23,7 @@ export default function NavBar() {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="/">
+                <a className="nav-link active" aria-current="page" href="/React-Portfolio/">
                   Home
                 </a>
               </li>
@@ -33,17 +33,17 @@ export default function NavBar() {
                 </a>
               </li> */}
               <li className="nav-item">
-                <a className="nav-link" href="/contact">
+                <a className="nav-link" href="/React-Portfolio/contact">
                   Contact
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/portfolio">
+                <a className="nav-link" href="/React-Portfolio/portfolio">
                   Portfolio
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/resume">
+                <a className="nav-link" href="/React-Portfolio/resume">
                   Resume
                 </a>
               </li>

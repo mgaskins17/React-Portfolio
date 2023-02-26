@@ -23,11 +23,11 @@ export default function App() {
         <div> 
         <Navbar />
         <Routes>
-            <Route path='/' element={<Home />} />
+            <Route path='/React-Portfolio/' element={<Home />} />
             {/* <Route path='/aboutme' element={<About />} /> */}
-            <Route path='/contact' element={<Contact />} />
-            <Route path='/resume' element={<Resume />} />
-            <Route path='/portfolio' element={<Portfolio />} />
+            <Route path='/React-Portfolio/contact' element={<Contact />} />
+            <Route path='/React-Portfolio/resume' element={<Resume />} />
+            <Route path='/React-Portfolio/portfolio' element={<Portfolio />} />
             {/* <Route path='*' element={<Navigate to = "/"/>} /> */}
         </Routes>
         <Footer />
